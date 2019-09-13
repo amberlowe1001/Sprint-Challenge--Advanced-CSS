@@ -33,15 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+a fully responsive website will look the same on any  size screen. A adaptive website still has hard coded margins, widiths, and pixel sizes that can change and then in
 
 2. Describe what it means to be mobile first vs desktop first.
-
+Mobile first compared to desktop first is the order in which the website is designed
+describes a technique in which a website's design is automatically adjusted ... Responsive vs adaptive websites: ... Instead, the former is actually a design strategy (mobile-first), while the latter ... In other words, the site is scaled down; this approach is widely known as graceful degradation or desktop-first.
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+This is the default font size of 16px
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessing is the way in which developers make the code in which they write more useful and proficient. They do this by taking a css code that is lengthy and condensing the code so that each line is more dry. They can write more functions with less code.
+
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-
+Mixins and media qury
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
@@ -56,13 +60,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
@@ -90,7 +94,7 @@ Your finished project must include all of the following requirements:
 7.home-page.less
 ```
 
-_You will know everything is working properly when you see the styles enabled for the provided content._  
+_You will know everything is working properly when you see the styles enabled for the provided content._
 
 ### Home Page - Desktop HTML & LESS
 

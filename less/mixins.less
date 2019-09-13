@@ -1,19 +1,20 @@
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
 
-&:hover {
-     background-color: blanchedalmond;
+  @mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
 }
-:hover {
-  background-color: blanchedalmond;
 
+ @mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
 }
-  /* extra small screens  devices(phones, 600px and down)*/
-@media only screen and {
- max-width: 600px;
+
+ @mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
 }
-    @media {
- body { min-width: 992px;
-   min-width:  1200px
-    }
-    }
+
+
+
 
 
