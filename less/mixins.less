@@ -1,3 +1,16 @@
+
+// Mixins Here
+
+.custom-btn (@bgcolor: black, @width: 80px, @font-color: white) {
+    display: block;
+    background-color: @bgcolor;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    border-radius: 20px;
+    color: @font-color;
+
 //
 // Used for Debugging to highlight current item
 .scooby() {
@@ -42,4 +55,5 @@
     .center();
     .border-radius(@radius-ems);
     .width(100%)
+
 }
